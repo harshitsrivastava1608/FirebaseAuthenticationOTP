@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LabourIITD</string>
+    <string name="preference_file_name">Response Preferences</string>
+</resources>

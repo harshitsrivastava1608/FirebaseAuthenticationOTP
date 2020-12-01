@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/user"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        />
+    <View
+
+        android:id="@+id/rectangle_2"
+        android:layout_width="285dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/rectangle_2"
+         />
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="154dp"
+        android:layout_height="100dp"
+android:layout_marginTop="170dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="25dp"
+        android:text="Hello ! What is your
+                    Name?"
+        android:textSize="21sp"
+      />
+    <ImageButton
+        android:id="@+id/ic_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+
+        android:src="@drawable/ic_speaker"
+         />
+
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="285dp"
+        android:layout_height="160dp"
+
+        android:layout_below="@+id/rectangle_2"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_1"
+       >
+
+    </View>
+
+    <ImageButton
+        android:id="@+id/ic_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+       android:layout_alignParentEnd="true"
+        android:layout_marginEnd="54dp"
+       android:layout_centerInParent="true"
+        android:src="@drawable/ic_mic"
+         />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="154dp"
+        android:layout_height="100dp"
+       android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:text="My Name is Rohan Misra"
+        android:textSize="21sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
